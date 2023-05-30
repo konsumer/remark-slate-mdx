@@ -1,10 +1,18 @@
 This will allow you to build a richtext editor for MDX, with slate & unified.
 
+## Install
+
+```
+npm i remark-slate-mdx
+```
+
+## Usage
+
 It's basically just a published version of [this](https://codesandbox.io/s/njvjyy), so see that for an example.
 
 
 ```js
-import remarkSlate, { serialize } from './remark-slate-mdx'
+import remarkSlate, { serialize } from 'remark-slate-mdx'
 
 export const deserialize = (src) => {
   const { result } = unified()
